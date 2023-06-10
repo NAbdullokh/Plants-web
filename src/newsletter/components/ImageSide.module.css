@@ -1,0 +1,15 @@
+.box-wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: end;
+}
+
+.img {
+  width: 250px;
+}
+
+@media (max-width: 1000px) {
+  .box-wrapper {
+    justify-content: center;
+  }
+}

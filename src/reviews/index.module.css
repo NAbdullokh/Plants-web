@@ -1,0 +1,20 @@
+.reviews-wrapper {
+  padding: 0 100px;
+  margin-top: 80px;
+  display: flex;
+  gap: 30px;
+}
+
+@media (max-width: 1000px) {
+  .reviews-wrapper {
+    padding: 20px 50px;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  .reviews-wrapper {
+    padding: 20px 20px;
+  }
+}

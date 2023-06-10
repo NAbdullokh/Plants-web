@@ -1,0 +1,41 @@
+.box-wrapper {
+  flex: 1;
+}
+
+.title {
+  width: 80%;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+  color: var(--txt-dark-color);
+  margin-bottom: 30px;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: var(--txt-gray-color);
+  cursor: pointer;
+}
+
+.icon {
+  margin-left: 5px;
+  transition: 0.5s;
+}
+
+.text:hover .icon {
+  margin-left: 10px;
+}
+
+@media (max-width: 1200px) {
+  .title {
+    width: 100%;
+    font-size: 30px;
+    line-height: 40px;
+  }
+}

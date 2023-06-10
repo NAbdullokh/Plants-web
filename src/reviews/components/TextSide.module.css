@@ -1,0 +1,20 @@
+.box-wrapper {
+  flex: 1;
+}
+
+.header {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  color: var(--txt-dark-color);
+}
+
+.description {
+  margin: 12px 0 40px 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: var(--txt-gray-color);
+}

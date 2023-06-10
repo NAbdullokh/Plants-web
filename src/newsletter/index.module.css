@@ -1,0 +1,23 @@
+.newsletter-wrapper {
+  width: 80%;
+  padding: 0px 50px;
+  margin: 80px auto 0 auto;
+  display: flex;
+  background: #dfffe3;
+  border-radius: 6px;
+}
+
+@media (max-width: 1000px) {
+  .newsletter-wrapper {
+    width: 90%;
+    padding: 20px 50px;
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 800px) {
+  .newsletter-wrapper {
+    padding: 20px 20px;
+  }
+}
