@@ -1,9 +1,9 @@
 import React from "react";
 
 import { footerData } from "./utils/footerData";
+import { socialMediasData } from "./utils/socialMediasData";
 
 import classes from "./index.module.css";
-import { socialMediasData } from "./utils/socialMediasData";
 
 const Footer = () => {
   return (

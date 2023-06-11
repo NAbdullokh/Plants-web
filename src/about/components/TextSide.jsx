@@ -1,7 +1,8 @@
 import React from "react";
 
-import classes from "./TextSide.module.css";
 import Button from "../../shared/components/button/Button";
+
+import classes from "./TextSide.module.css";
 
 const TextSide = () => {
   return (
