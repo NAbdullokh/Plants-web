@@ -12,7 +12,7 @@ const ImageSide = () => {
         src={bigPlantImage}
         alt="big plant Image"
       />
-      <div className={classes["box-1"]}>
+      <div data-aos="fade-up-left" className={classes["box-1"]}>
         <div className={classes["option"]}>
           <div className={classes["circle"]}>
             <div className={classes["small-circle"]}></div>
@@ -22,7 +22,7 @@ const ImageSide = () => {
         </div>
       </div>
 
-      <div className={classes["box-2"]}>
+      <div data-aos="fade-up-right" className={classes["box-2"]}>
         <div className={classes["option"]}>
           <div className={classes["container"]}>Cactus stem</div>
           <div className={classes["stick"]}></div>
@@ -32,7 +32,7 @@ const ImageSide = () => {
         </div>
       </div>
 
-      <div className={classes["box-3"]}>
+      <div data-aos="fade-up-left" className={classes["box-3"]}>
         <div className={classes["option"]}>
           <div className={classes["circle"]}>
             <div className={classes["small-circle"]}></div>

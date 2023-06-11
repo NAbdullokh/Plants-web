@@ -7,7 +7,7 @@ import classes from "./index.module.css";
 
 const Reviews = () => {
   return (
-    <div className={classes["reviews-wrapper"]}>
+    <div id="reviews" className={classes["reviews-wrapper"]}>
       <TextSide />
       <ImageSide />
     </div>

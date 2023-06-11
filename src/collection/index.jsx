@@ -7,7 +7,7 @@ import classes from "./index.module.css";
 
 const Collections = () => {
   return (
-    <div className={classes["collections-wrapper"]}>
+    <div id="collections" className={classes["collections-wrapper"]}>
       <TextSide />
       <ImageSide />
     </div>

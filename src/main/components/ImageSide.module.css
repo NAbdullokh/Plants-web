@@ -6,8 +6,8 @@
 }
 
 .image {
-  min-width: 500px;
-  width: 80%;
+  max-width: 500px;
+  width: 100%;
 }
 
 .box-1 {
@@ -70,4 +70,28 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 131px;
+    height: 43px;
+  }
+  .stick {
+    width: 35px;
+    height: 3px;
+  }
+}
+
+@media (max-width: 470px) {
+  .container {
+    width: 100px;
+    height: 30px;
+    font-size: 13px;
+    line-height: 18px;
+  }
+  .stick {
+    width: 25px;
+    height: 3px;
+  }
 }

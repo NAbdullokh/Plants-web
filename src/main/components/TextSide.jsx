@@ -11,7 +11,7 @@ import leafImage from "../assets/images/leaf.png";
 
 const TextSide = () => {
   return (
-    <div className={classes["box-wrapper"]}>
+    <div data-aos="fade-up" className={classes["box-wrapper"]}>
       <h3 className={classes["title"]}>Growing Beautiful Plants at Home</h3>
       <p className={classes["description"]}>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu, tempor,
@@ -31,7 +31,7 @@ const TextSide = () => {
           );
         })}
       </div>
-      <img className={classes['leaf-image']} src={leafImage} alt="leaf image" />
+      <img className={classes["leaf-image"]} src={leafImage} alt="leaf image" />
     </div>
   );
 };
