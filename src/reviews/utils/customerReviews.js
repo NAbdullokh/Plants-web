@@ -1,9 +1,11 @@
+import userImage from "../assets/images/userImage.png";
+
 export const customerReviews = [
   {
     id: 1,
     fullName: "Hasanul Islam",
     job: "Frontend Developer",
-    image: "",
+    image: userImage,
     review:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu, tempor, accumsan sit amet nunc cursus. Nec tristique at in erat lectus mas sa diam. Lectus elit, nulla elementum fringilla at.",
   },
@@ -11,7 +13,7 @@ export const customerReviews = [
     id: 2,
     fullName: "Abdurahimov Ibrohim",
     job: "Software Engineer",
-    image: "",
+    image: userImage,
     review:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu, tempor, accumsan sit amet nunc cursus. Nec tristique at in erat lectus mas sa diam. Lectus elit, nulla elementum fringilla at.",
   },
@@ -19,7 +21,7 @@ export const customerReviews = [
     id: 3,
     fullName: "Nigmatullaev Abdulloh",
     job: "Backend Develoepr",
-    image: "",
+    image: userImage,
     review:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu, tempor, accumsan sit amet nunc cursus. Nec tristique at in erat lectus mas sa diam. Lectus elit, nulla elementum fringilla at.",
   },
@@ -27,7 +29,7 @@ export const customerReviews = [
     id: 4,
     fullName: "Abjuborrov Abdulvoris",
     job: "Marketing CEO",
-    image: "",
+    image: userImage,
     review:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu, tempor, accumsan sit amet nunc cursus. Nec tristique at in erat lectus mas sa diam. Lectus elit, nulla elementum fringilla at.",
   },
@@ -35,7 +37,7 @@ export const customerReviews = [
     id: 5,
     fullName: "Sunnatov Sunnat",
     job: "Fullstack Developer",
-    image: "",
+    image: userImage,
     review:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu, tempor, accumsan sit amet nunc cursus. Nec tristique at in erat lectus mas sa diam. Lectus elit, nulla elementum fringilla at.",
   },

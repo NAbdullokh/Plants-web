@@ -1,0 +1,41 @@
+.box-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.image-icon {
+  filter: brightness(0.7);
+}
+
+.image {
+  width: 100%;
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  color: white;
+  transform: scale(3);
+}
+
+@media (max-width: 600px) {
+  .icon {
+    top: 50px;
+    transform: scale(2);
+  }
+}
+
+@media (max-width: 500px) {
+  .icon {
+    top: 20px;
+    transform: scale(1);
+  }
+}

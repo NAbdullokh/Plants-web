@@ -28,6 +28,24 @@
   line-height: 21px;
   color: #5a5a5a;
   margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.social-medias {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.social-media {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #edffdd;
+  color: var(--txt-color-primary);
+  cursor: pointer;
 }
 
 @media (max-width: 1000px) {

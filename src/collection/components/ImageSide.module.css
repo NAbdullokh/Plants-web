@@ -13,10 +13,6 @@
   transition: 0.3s;
 }
 
-.img-box:hover {
-  transform: scale(1.07);
-}
-
 @media (max-width: 1100px) {
   .box-wrapper {
     gap: 10px;

@@ -20,3 +20,10 @@
   --txt-white-color: #ffffff;
   --txt-gray-color: #4a4a4a;
 }
+
+.swiper-button-next,
+.swiper-button-prev {
+  background-color: white;
+  color: var(--txt-primary-color);
+  transform: scale(0.7);
+}

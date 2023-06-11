@@ -45,13 +45,10 @@
   position: absolute;
   width: 98px;
   height: 40px;
-  right: 20px;
+  right: 10px;
 }
 
 @media (max-width: 500px) {
-  .button {
-    right: 10px;
-  }
   .header {
     font-size: 30px;
     line-height: 40px;

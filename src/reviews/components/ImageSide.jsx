@@ -7,7 +7,11 @@ import womenImage from "../assets/images/womenImage.png";
 const ImageSide = () => {
   return (
     <div className={classes["box-wrapper"]}>
-      <img src={womenImage} alt="womenImage" />
+      <img
+        src={womenImage}
+        alt="womenImage"
+        className={classes["womenImage"]}
+      />
     </div>
   );
 };

@@ -1,6 +1,14 @@
 import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation } from "swiper";
+
+import ReviewsComponent from "./ReviewsComponent";
+
+import { customerReviews } from "../utils/customerReviews";
 
 import classes from "./TextSide.module.css";
+import "swiper/css";
+import "swiper/css/navigation";
 
 const TextSide = () => {
   return (
@@ -11,7 +19,21 @@ const TextSide = () => {
         accumsan sit amet nunc cursus. Nec tristique at in erat lectus mas sa
         diam. Lectus elit, nulla elementum fringilla at.
       </p>
-      <div className={classes["customer-review"]}></div>
+      <div className={classes["customer-review"]}>
+        <Swiper
+          navigation={true}
+          modules={[Navigation]}
+          className={classes["swiper-wrapper"]}
+        >
+          {customerReviews.map((review) => {
+            return (
+              <SwiperSlide key={review.id}>
+                <ReviewsComponent review={review} />
+              </SwiperSlide>
+            );
+          })}
+        </Swiper>
+      </div>
     </div>
   );
 };

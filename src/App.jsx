@@ -7,6 +7,7 @@ import About from "./about";
 import Newsletter from "./newsletter";
 import Reviews from "./reviews";
 import Footer from "./footer";
+import FollowInstagram from "./instagram";
 
 import classes from "./App.module.css";
 import "./shared/assets/global.css";
@@ -20,6 +21,7 @@ const App = () => {
       <About />
       <Reviews />
       <Newsletter />
+      <FollowInstagram />
       <Footer />
     </div>
   );
